@@ -1,0 +1,3097 @@
+{
+  "renderURLInit": "?p_p_id=frontendwebthongtindoanhnghiepcd_INSTANCE_tmxjXl4EGHBY&p_p_lifecycle=2&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1",
+  "renderURLInit2": "?p_p_id=vma_WAR_TichHopGiaoThongportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&p_p_resource_id=getURLInit",
+  "renderURLInit3": "?p_p_id=danhmucriengaction_WAR_TichHopGiaoThongportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&p_p_resource_id=getURLInit",
+  "headersTtVmaTran_Slip": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Chọn",
+      "align": "center",
+      "sortable": false,
+      "id": "tick",
+      "display": "tick",
+      "type": "tick",
+      "items": "itemSelects",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "Số biên lai",
+      "align": "center",
+      "sortable": false,
+      "id": "sequenceNo",
+      "type": "text",
+      "display": "sequenceNo",
+      "style": {
+        "min-width": "11em",
+        "max-width": "11em"
+      }
+    },
+    {
+      "text": "Ngày biên lai",
+      "align": "center",
+      "sortable": false,
+      "id": "documentaryIssued",
+      "display": "documentaryIssued",
+      "type": "time",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Số tiền thanh toán",
+      "align": "center",
+      "sortable": false,
+      "id": "paymentAmount",
+      "display": "paymentAmount",
+      "type": "text",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Thiết lập phí",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Lượt",
+      "align": "center",
+      "sortable": false,
+      "id": "noticeShipType",
+      "display": "noticeShipType",
+      "type": "text",
+      "style": {
+        "min-width": "11.3em",
+        "max-width": "11.3em"
+      }
+    },
+    {
+      "text": "Người thanh toán",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    }
+  ],
+  "headersTtVmaTran_Conversion": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Loại và công dụng",
+      "align": "center",
+      "sortable": false,
+      "id": "shipTypeMT",
+      "display": "shipTypeMTName",
+      "type": "select",
+      "items": "shipTypeMTItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Loại tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipTypeCode",
+      "type": "select",
+      "display": "shipTypeName",
+      "items": "shipTypeItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Tên công thức",
+      "align": "center",
+      "sortable": false,
+      "id": "functionType",
+      "display": "functionName",
+      "type": "select",
+      "items": "functionItems",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Hệ số nhân",
+      "align": "center",
+      "sortable": false,
+      "id": "conversionRate",
+      "display": "conversionRate",
+      "type": "text"
+    },
+    {
+      "text": "Đơn vị",
+      "align": "center",
+      "sortable": false,
+      "id": "conversionUnit",
+      "display": "conversionUnit",
+      "type": "select",
+      "items": "conversionUnitItems",
+      "style": {
+        "min-width": "17.1em",
+        "max-width": "17.1em"
+      }
+    },
+    {
+      "text": "Thời gian cập nhật",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "time",
+      "style": {
+        "min-width": "11.3em",
+        "max-width": "11.3em"
+      }
+    }
+  ],
+  "headersTtVmaTran_Type": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Mã cảng vụ",
+      "align": "center",
+      "sortable": false,
+      "id": "portofAuthority",
+      "display": "portofAuthority",
+      "type": "text",
+      "style": {
+        "min-width": "6em",
+        "max-width": "6em"
+      }
+    },
+    {
+      "text": "Loại phí",
+      "align": "center",
+      "sortable": false,
+      "id": "transactionTypeName",
+      "type": "text",
+      "display": "transactionTypeName",
+      "style": {
+        "min-width": "29.5em",
+        "max-width": "29.5em"
+      }
+    },
+    {
+      "text": "Cấp độ",
+      "align": "center",
+      "sortable": false,
+      "id": "transactionLevel",
+      "display": "transactionLevel",
+      "type": "select",
+      "items": "transactionLevelItems",
+      "style": {
+        "min-width": "10em",
+        "max-width": "10em"
+      }
+    },
+    {
+      "text": "Loại tiền",
+      "align": "center",
+      "sortable": false,
+      "id": "currencyCode",
+      "display": "currencyCode",
+      "type": "select",
+      "items": "currencyItems",
+      "style": {
+        "min-width": "10em",
+        "max-width": "10em"
+      }
+    },
+    {
+      "text": "Tên viết tắt",
+      "align": "center",
+      "sortable": false,
+      "id": "transactionTypeShortName",
+      "display": "transactionTypeShortName",
+      "type": "text",
+      "style": {
+        "min-width": "19em",
+        "max-width": "19em"
+      }
+    },
+    {
+      "text": "Thời gian cập nhật",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "time",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    }
+  ],
+  "headersTtVmaTran_Function": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Mã cảng vụ",
+      "align": "center",
+      "sortable": false,
+      "id": "portofAuthority",
+      "display": "portofAuthority",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Loại phí",
+      "align": "center",
+      "sortable": false,
+      "id": "transactionTypeCode",
+      "type": "select",
+      "display": "transactionTypeName",
+      "items": "transactionTypeItems"
+    },
+    {
+      "text": "Mã công thức",
+      "align": "center",
+      "sortable": false,
+      "id": "functionName",
+      "display": "functionName",
+      "type": "text"
+    },
+    {
+      "text": "Thiết lập phí",
+      "align": "center",
+      "sortable": false,
+      "id": "makePayment",
+      "display": "makePayment",
+      "type": "select",
+      "items": "makePaymentItems"
+    },
+    {
+      "text": "Lượt vào",
+      "align": "center",
+      "sortable": false,
+      "id": "forArrival",
+      "display": "forArrival",
+      "type": "select",
+      "items": "forArrivalItems"
+    },
+    {
+      "text": "Lượt rời",
+      "align": "center",
+      "sortable": false,
+      "id": "forDeparture",
+      "display": "forDeparture",
+      "type": "text"
+    },
+    {
+      "text": "Phân loại",
+      "align": "center",
+      "sortable": false,
+      "id": "chargeType",
+      "display": "chargeType",
+      "type": "select",
+      "items": "chargeTypeItems"
+    },
+    {
+      "text": "Ghi chú công thức",
+      "align": "center",
+      "sortable": false,
+      "id": "functionNote",
+      "display": "functionNote",
+      "type": "text"
+    },
+    {
+      "text": "Diễn giải",
+      "align": "center",
+      "sortable": false,
+      "id": "transactionNote",
+      "display": "transactionNote",
+      "type": "text"
+    },
+    {
+      "text": "Mức thu",
+      "align": "center",
+      "sortable": false,
+      "id": "chargeRate",
+      "display": "chargeRate",
+      "type": "text"
+    },
+    {
+      "text": "Ràng buộc <br> trọng tải",
+      "align": "center",
+      "sortable": false,
+      "id": "chargeConditions",
+      "display": "chargeConditions",
+      "type": "text"
+    },
+    {
+      "text": "Mức miễn giảm",
+      "align": "center",
+      "sortable": false,
+      "id": "discountRate",
+      "display": "discountRate",
+      "type": "text"
+    },
+    {
+      "text": "Điều kiện miễn giảm <br> mục đích chuyến tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "discountType1",
+      "display": "discountType1",
+      "type": "select",
+      "items": "discountTypeItems"
+    },
+    {
+      "text": "Điều kiện miễn giảm <br> ràng buộc loại tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "discountType2",
+      "display": "discountType2",
+      "type": "select",
+      "items": "discountTypeItems"
+    },
+    {
+      "text": "Điều kiện miễn giảm <br> ràng buộc số chuyến tháng",
+      "align": "center",
+      "sortable": false,
+      "id": "discountType3",
+      "display": "discountType3",
+      "type": "select",
+      "items": "discountTypeItems"
+    },
+    {
+      "text": "Điều kiện miễn giảm <br> ràng buộc số giờ neo",
+      "align": "center",
+      "sortable": false,
+      "id": "discountType4",
+      "display": "discountType4",
+      "type": "select",
+      "items": "discountTypeItems"
+    },
+    {
+      "text": "Điều kiện miễn giảm <br> ràng buộc khu vực",
+      "align": "center",
+      "sortable": false,
+      "id": "discountType5",
+      "display": "discountType5",
+      "type": "select",
+      "items": "discountTypeItems"
+    },
+    {
+      "text": "Áp dụng <br> ngày bắt đầu/ kết thúc",
+      "align": "center",
+      "sortable": false,
+      "id": "applied",
+      "display": "applied",
+      "type": "select",
+      "items": "appliedItems"
+    },
+    {
+      "text": "Áp dụng từ ngày",
+      "align": "center",
+      "sortable": false,
+      "id": "appliedFrom",
+      "display": "appliedFrom",
+      "type": "text"
+    },
+    {
+      "text": "Áp dụng đến ngày",
+      "align": "center",
+      "sortable": false,
+      "id": "appliedTo",
+      "display": "appliedTo",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian cập nhật",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "time"
+    }
+  ],
+  "headersTtVmaConversionType": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên công thức",
+      "align": "center",
+      "sortable": false,
+      "id": "functionName",
+      "display": "functionName",
+      "type": "text",
+      "style": {
+        "min-width": "27.1em",
+        "max-width": "27.1em"
+      }
+    },
+    {
+      "text": "Trọng số",
+      "align": "center",
+      "sortable": false,
+      "id": "conversionSequence",
+      "display": "conversionSequence",
+      "type": "text",
+      "style": {
+        "min-width": "21.3em",
+        "max-width": "21.3em"
+      }
+    },
+    {
+      "text": "Đơn vị",
+      "align": "center",
+      "sortable": false,
+      "id": "conversionUnit",
+      "display": "conversionUnit",
+      "type": "text",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Thời gian cập nhật",
+      "align": "center",
+      "sortable": false,
+      "id": "modifiedDate",
+      "display": "modifiedDate",
+      "type": "time",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    }
+  ],
+  "headersDsTauAll": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Quốc tịch",
+      "align": "center",
+      "sortable": false,
+      "id": "flagStateOfShip",
+      "type": "select",
+      "display": "flagStateOfShipName",
+      "items": "quocTichItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "IMO",
+      "align": "center",
+      "sortable": false,
+      "id": "imoNumber",
+      "display": "imoNumber",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "time",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Thời gian rời",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfDeparture",
+      "display": "timeOfDeparture",
+      "type": "time",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "arrivalShipAgency",
+      "display": "arrivalShipAgency",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "19em",
+        "max-width": "19em"
+      }
+    }
+  ],
+  "headersDsDuTau": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian đi",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfDeparture",
+      "display": "timeOfDeparture",
+      "type": "time"
+    },
+    {
+      "text": "Ngày bắt giữ",
+      "align": "center",
+      "sortable": false,
+      "id": "securityDate",
+      "display": "securityDate",
+      "type": "time"
+    },
+    {
+      "text": "Ngày giải tỏa",
+      "align": "center",
+      "sortable": false,
+      "id": "evacuateDate",
+      "display": "evacuateDate",
+      "type": "time"
+    },
+    {
+      "text": "Lý do bắt giữ",
+      "align": "center",
+      "sortable": false,
+      "id": "securityReason",
+      "display": "securityReason",
+      "type": "text"
+    },
+    {
+      "text": "Cơ quan ra quyết định <br> bắt giữ",
+      "align": "center",
+      "sortable": false,
+      "display": "securityCompanyName",
+      "id": "securityOfficeCode",
+      "type": "text"
+    },
+    {
+      "text": "Địa điểm <br> bắt dữ",
+      "align": "center",
+      "sortable": false,
+      "id": "securityPlace",
+      "display": "securityPlace",
+      "type": "text"
+    },
+    {
+      "text": "Cơ quan ra quyết định <br> giải tỏa",
+      "align": "center",
+      "sortable": false,
+      "id": "evacuateCompanyName",
+      "display": "evacuateCompanyName",
+      "type": "text"
+    },
+    {
+      "text": "SQĐ bắt giữ",
+      "align": "center",
+      "sortable": false,
+      "id": "securityOfficialNo",
+      "display": "securityOfficialNo",
+      "type": "text"
+    },
+    {
+      "text": "SQĐ giải tỏa",
+      "align": "center",
+      "sortable": false,
+      "id": "evacuateOfficialNo",
+      "display": "evacuateOfficialNo",
+      "type": "text"
+    }
+  ],
+  "headersDsThuTau": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian đi",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfDeparture",
+      "display": "timeOfDeparture",
+      "type": "time"
+    },
+    {
+      "text": "Số thuyền viên",
+      "align": "center",
+      "sortable": false,
+      "id": "crewNumber",
+      "display": "crewNumber",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian <br> bắt đầu",
+      "align": "center",
+      "sortable": false,
+      "id": "testingFrom",
+      "display": "testingFrom",
+      "type": "time"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Thời gian <br> kết thúc",
+      "align": "center",
+      "sortable": false,
+      "display": "testingTo",
+      "id": "testingTo",
+      "type": "text"
+    },
+    {
+      "text": "Trọng tải",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Thuyền trưởng",
+      "align": "center",
+      "sortable": false,
+      "id": "shipCaptain",
+      "display": "shipCaptain",
+      "type": "text"
+    },
+    {
+      "text": "Mớn nước mũi",
+      "align": "center",
+      "sortable": false,
+      "id": "shownDraftxF",
+      "display": "shownDraftxF",
+      "type": "text",
+      "style": {
+        "min-width": "7em",
+        "max-width": "7em"
+      }
+    },
+    {
+      "text": "Mớn nước lái",
+      "align": "center",
+      "sortable": false,
+      "id": "shownDraftxA",
+      "display": "shownDraftxA",
+      "type": "text",
+      "style": {
+        "min-width": "7em",
+        "max-width": "7em"
+      }
+    },
+    {
+      "text": "Từ vị trí",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortHarbourCode",
+      "display": "shiftingPortHarbourCode",
+      "type": "text"
+    },
+    {
+      "text": "Đến vị trí",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortWharfCode",
+      "display": "shiftingPortWharfCode",
+      "type": "text"
+    },
+    {
+      "text": "Số người <br> theo tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "evacuateOfficialNo",
+      "display": "evacuateOfficialNo",
+      "type": "text"
+    },
+    {
+      "text": "Số giấy phép",
+      "align": "center",
+      "sortable": false,
+      "id": "certificateNo",
+      "display": "certificateNo",
+      "type": "text"
+    }
+  ],
+  "headersDsGhiChu": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Ghi chú tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "remarks",
+      "display": "remarks",
+      "type": "text",
+      "style": {
+        "min-width": "33.7em",
+        "max-width": "33.7em"
+      }
+    },
+    {
+      "text": "Có hiển thị cảnh báo",
+      "align": "center",
+      "sortable": false,
+      "id": "coHienThiCanhBao",
+      "display": "coHienThiCanhBao",
+      "type": "select",
+      "items": "coHienThiCanhBaoItems",
+      "style": {
+        "min-width": "10em",
+        "max-width": "10em"
+      }
+    },
+    {
+      "text": "Ngày ghi chú",
+      "align": "center",
+      "sortable": false,
+      "id": "securityDate",
+      "display": "securityDate",
+      "type": "time"
+    },
+    {
+      "text": "Ngày hết hiệu lực ghi chú",
+      "align": "center",
+      "sortable": false,
+      "id": "evacuateDate",
+      "display": "evacuateDate",
+      "type": "time"
+    },
+    {
+      "text": "Không giải quyết rời cảng",
+      "align": "center",
+      "sortable": false,
+      "id": "khongGiaiQuyetRoiCang",
+      "display": "khongGiaiQuyetRoiCang",
+      "type": "select",
+      "items": "khongGiaiQuyetRoiCangItems",
+      "style": {
+        "min-width": "12em",
+        "max-width": "12em"
+      }
+    }
+  ],
+  "headersDsHaXuong": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian đi",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfDeparture",
+      "display": "timeOfDeparture",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian bắt đầu <br> thả xuồng",
+      "align": "center",
+      "sortable": false,
+      "id": "launchingFrom",
+      "display": "launchingFrom",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian kết thúc <br> thả xuồng",
+      "align": "center",
+      "sortable": false,
+      "id": "launchingTo",
+      "display": "launchingTo",
+      "type": "time"
+    },
+    {
+      "text": "Mục đích thả xuồng",
+      "align": "center",
+      "sortable": false,
+      "id": "launchingReason",
+      "display": "launchingReason",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Khu vực thả xuồng",
+      "align": "center",
+      "sortable": false,
+      "id": "launchingPlace",
+      "display": "launchingPlace",
+      "type": "text",
+      "style": {
+        "min-width": "14.8em",
+        "max-width": "14.8em"
+      }
+    }
+  ],
+  "headersHoaTieuDanTau": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Lượt",
+      "align": "center",
+      "sortable": false,
+      "id": "noticeShipType",
+      "display": "noticeShipTypeName",
+      "type": "select",
+      "items": "noticeShipTypeItems"
+    },
+    {
+      "text": "Hoa tiêu",
+      "align": "center",
+      "sortable": false,
+      "id": "pilotList",
+      "display": "pilotList",
+      "type": "select",
+      "items": "pilotItems"
+    },
+    {
+      "text": "Bến cảng <br> lên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortHarbourCode",
+      "display": "anchoringPortHarbourName",
+      "type": "select",
+      "items": "portHarbourItems"
+    },
+    {
+      "text": "Vị trí <br> lên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Bến cảng <br> rời tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortHarbourCode",
+      "display": "shiftingPortHarbourName",
+      "type": "select",
+      "items": "portHarbourItems"
+    },
+    {
+      "text": "Vị trí <br> rời tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortWharfCode",
+      "display": "shiftingPortWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Thời gian <br> lên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "pilotDateFrom",
+      "display": "pilotDateFrom",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian <br> rời tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "pilotDateTo",
+      "display": "pilotDateTo",
+      "type": "time"
+    }
+  ],
+  "headersDsKeHoachChuyenTuyen": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Đơn vị khai thác",
+      "align": "center",
+      "sortable": false,
+      "style": {
+        "min-width": "61.5em",
+        "max-width": "61.5em"
+      },
+      "id": "shipOperatorCode",
+      "display": "shipOperatorName",
+      "type": "select",
+      "items": "shipOperatorItems"
+    },
+    {
+      "text": "Tháng",
+      "align": "center",
+      "sortable": false,
+      "style": {
+        "min-width": "11.6em",
+        "max-width": "11.6em"
+      },
+      "id": "thang",
+      "display": "thang",
+      "type": "select",
+      "items": "thangItems"
+    },
+    {
+      "text": "Số chuyến trong tháng",
+      "align": "center",
+      "sortable": false,
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      },
+      "id": "voyageNumber",
+      "display": "voyageNumber",
+      "type": "text"
+    }
+  ],
+  "headersDsKhangNghi": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Nội dung",
+      "align": "center",
+      "sortable": false,
+      "id": "remarks",
+      "display": "remarks",
+      "type": "text",
+      "style": {
+        "min-width": "17em",
+        "max-width": "17em"
+      }
+    },
+    {
+      "text": "Thời gian nhận <br> kháng cáo",
+      "align": "center",
+      "sortable": false,
+      "id": "protestDate",
+      "display": "protestDate",
+      "type": "time",
+      "style": {
+        "min-width": "10.5em",
+        "max-width": "10.5em"
+      }
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Chủ tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipOwnerCode",
+      "display": "shipOwnerName",
+      "type": "select",
+      "items": "shipOwnerItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Khai thác",
+      "align": "center",
+      "sortable": false,
+      "id": "shipOperatorCode",
+      "display": "shipOperatorName",
+      "type": "select",
+      "items": "shipOperatorItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    }
+  ],
+  "headersNeoTau": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "type": "select",
+      "id": "nameOfShip",
+      "display": "nameOfShip"
+    },
+    {
+      "text": "Thời gian <br> bắt đầu",
+      "align": "left",
+      "sortable": false,
+      "type": "text",
+      "id": "anchoringDateFrom",
+      "display": "anchoringDateFrom"
+    },
+    {
+      "text": "Mục đích neo",
+      "align": "center",
+      "sortable": false,
+      "id": "purposeCode",
+      "display": "purposeName",
+      "type": "select",
+      "items": "purposeItems"
+    },
+    {
+      "text": "Thời gian <br> kết thúc",
+      "align": "left",
+      "sortable": false,
+      "type": "select",
+      "id": "anchoringDateTo",
+      "display": "anchoringDateTo"
+    },
+    {
+      "text": "Vị trí neo",
+      "align": "left",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Giờ neo",
+      "align": "left",
+      "sortable": false,
+      "type": "text",
+      "id": "anchoringDuration",
+      "display": "anchoringDuration"
+    },
+    {
+      "text": "Neo bổ sung",
+      "align": "left",
+      "sortable": false,
+      "type": "text",
+      "id": "sequenceNo",
+      "display": "sequenceNo"
+    },
+    {
+      "text": "Phao",
+      "align": "left",
+      "sortable": false,
+      "type": "select",
+      "id": "phao",
+      "display": "phao",
+      "items": "phaoItems"
+    },
+    {
+      "text": "Hoạt động <br> nội thủy",
+      "align": "left",
+      "sortable": false,
+      "type": "select",
+      "id": "hoatDongNoiThuy",
+      "display": "hoatDongNoiThuy",
+      "items": "hoatDongNoiThuyItems"
+    },
+    {
+      "text": "Hàng trên tàu",
+      "align": "left",
+      "sortable": false,
+      "type": "text",
+      "id": "hangTrenTau"
+    },
+    {
+      "text": "Đại lý",
+      "align": "left",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Chủ tàu",
+      "align": "left",
+      "sortable": false,
+      "type": "select",
+      "items": "shipOwnerItems",
+      "display": "shipOwnerName",
+      "id": "shipOwnerCode"
+    },
+    {
+      "text": "Khai thác",
+      "align": "left",
+      "sortable": false,
+      "type": "select",
+      "display": "shipOperatorName",
+      "id": "shipOperatorCode",
+      "items": "shipOperatorItems"
+    }
+  ],
+  "headersDsSuaChuaTau": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text",
+      "style": {
+        "min-width": "12.5em",
+        "max-width": "12.5em"
+      }
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "repairingFrom",
+      "display": "repairingFrom",
+      "type": "time"
+    },
+    {
+      "text": "Số quyết định",
+      "align": "center",
+      "sortable": false,
+      "id": "shipYardOfficialNo",
+      "display": "shipYardOfficialNo",
+      "type": "text"
+    },
+    {
+      "text": "Đơn vị sửa chữa",
+      "align": "center",
+      "sortable": false,
+      "id": "shipYardCompanyName",
+      "display": "shipYardCompanyName",
+      "type": "text",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Thời gian đi",
+      "align": "center",
+      "sortable": false,
+      "id": "repairingTo",
+      "display": "repairingTo",
+      "type": "time"
+    },
+    {
+      "text": "Lý do sửa",
+      "align": "center",
+      "sortable": false,
+      "id": "repairingReason",
+      "display": "repairingReason",
+      "type": "text",
+      "style": {
+        "min-width": "12.1em",
+        "max-width": "12.1em"
+      }
+    },
+    {
+      "text": "Từ ngày",
+      "align": "center",
+      "sortable": false,
+      "id": "repairingFrom",
+      "display": "repairingFrom",
+      "type": "time"
+    },
+    {
+      "text": "Đến ngày",
+      "align": "center",
+      "sortable": false,
+      "id": "repairingTo",
+      "display": "repairingTo",
+      "type": "time"
+    }
+  ],
+  "headersDsTauBien": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipName",
+      "display": "shipName",
+      "type": "text"
+    },
+    {
+      "text": "Quốc tịch",
+      "align": "center",
+      "sortable": false,
+      "id": "flagStateOfShip",
+      "type": "select",
+      "display": "flagStateOfShipName",
+      "items": "quocTichItems"
+    },
+    {
+      "text": "IMO",
+      "align": "center",
+      "sortable": false,
+      "id": "imoNumber",
+      "display": "imoNumber",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipTypeCode",
+      "type": "select",
+      "display": "shipTypeName",
+      "items": "shipTypeItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Công dụng",
+      "align": "center",
+      "sortable": false,
+      "id": "shipTypeMT",
+      "display": "shipTypeMTName",
+      "type": "select",
+      "items": "shipTypeMTItems"
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "NT",
+      "align": "center",
+      "sortable": false,
+      "id": "nt",
+      "display": "nt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "LOA(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "Breadth(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "breadth",
+      "display": "breadth",
+      "type": "text",
+      "style": {
+        "min-width": "5.1em",
+        "max-width": "5.1em"
+      }
+    },
+    {
+      "text": "Mớn nước t.kế(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text"
+    },
+    {
+      "text": "Chiều cao t.không(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "clearanceHeight",
+      "display": "clearanceHeight",
+      "type": "text"
+    },
+    {
+      "text": "Cấp độ an ninh",
+      "align": "center",
+      "sortable": false,
+      "id": "securityLevelName",
+      "display": "securityLevelName",
+      "type": "text"
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Chủ tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipOwnerCode",
+      "display": "shipOwnerName",
+      "type": "select",
+      "items": "shipOwnerItems",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Người khai thác",
+      "align": "center",
+      "sortable": false,
+      "id": "shipOperatorCode",
+      "display": "shipOperatorName",
+      "type": "select",
+      "items": "shipOperatorItems",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    }
+  ],
+  "headersTauDenCang": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Quốc tịch",
+      "align": "center",
+      "sortable": false,
+      "id": "flagStateOfShip",
+      "type": "select",
+      "display": "flagStateOfShipName",
+      "items": "quocTichItems"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "chieuDai2",
+      "display": "chieuDai2",
+      "type": "loa",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Mớn nước",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoType",
+      "display": "cargoTypeName",
+      "type": "select",
+      "items": "cargoTypeItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Vị trí neo đậu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Dự kiến đến VT",
+      "align": "center",
+      "sortable": false,
+      "id": "duKienDenVt2",
+      "display": "duKienDenVt2",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Thời gian đến VT",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Tuyến luồng",
+      "align": "center",
+      "sortable": false,
+      "id": "chanelCodeList",
+      "display": "chanelCodeListName",
+      "type": "select",
+      "items": "chanelCodeListItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    }
+  ],
+  "headersPTTNDDenCang": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Số đăng ký",
+      "align": "center",
+      "sortable": false,
+      "id": "registryNumber",
+      "type": "text",
+      "display": "registryNumber"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Mớn nước",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoType",
+      "display": "cargoTypeName",
+      "type": "select",
+      "items": "cargoTypeItems"
+    },
+    {
+      "text": "Vị trí neo đậu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Dự kiến đến VT",
+      "align": "center",
+      "sortable": false,
+      "id": "duKienDenVt2",
+      "display": "duKienDenVt2",
+      "type": "text",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Thời gian đến VT",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "text",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "17em",
+        "max-width": "17em"
+      }
+    },
+    {
+      "text": "Tuyến luồng",
+      "align": "center",
+      "sortable": false,
+      "id": "chanelCodeList",
+      "display": "chanelCodeListName",
+      "type": "select",
+      "items": "chanelCodeListItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    }
+  ],
+  "headersKHTauDiChuyen": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Quốc tịch",
+      "align": "center",
+      "sortable": false,
+      "id": "flagStateOfShip",
+      "type": "select",
+      "display": "flagStateOfShipName",
+      "items": "quocTichItems"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Mớn nước",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoType",
+      "display": "cargoTypeName",
+      "type": "select",
+      "items": "cargoTypeItems"
+    },
+    {
+      "text": "Vị trí neo đậu <br> từ",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortHarbourCode",
+      "display": "shiftingPortHarbourName",
+      "type": "text"
+    },
+    {
+      "text": "Vị trí neo đậu <br> đến",
+      "align": "center",
+      "sortable": false,
+      "id": "shiftingPortWharfCode",
+      "display": "shiftingPortWharfName",
+      "type": "text"
+    },
+    {
+      "text": "Giờ rời",
+      "align": "center",
+      "sortable": false,
+      "id": "gioRoiKHDD",
+      "display": "gioRoiKHDD",
+      "type": "text"
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "arrivalShipAgency",
+      "display": "arrivalShipAgency",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "14em",
+        "max-width": "14em"
+      }
+    },
+    {
+      "text": "Tuyến luồng",
+      "align": "center",
+      "sortable": false,
+      "id": "chanelCodeList",
+      "display": "chanelCodeListName",
+      "type": "select",
+      "items": "chanelCodeListItems"
+    }
+  ],
+  "headersTauRoiCang": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Quốc tịch",
+      "align": "center",
+      "sortable": false,
+      "id": "flagStateOfShip",
+      "type": "select",
+      "display": "flagStateOfShipName",
+      "items": "quocTichItems"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text"
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text"
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Mớn nước",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoType",
+      "display": "cargoTypeName",
+      "type": "select",
+      "items": "cargoTypeItems"
+    },
+    {
+      "text": "Vị trí neo đậu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Dự kiến rời SG",
+      "align": "center",
+      "sortable": false,
+      "id": "duKienRoiSg",
+      "display": "duKienRoiSg",
+      "type": "text"
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems"
+    },
+    {
+      "text": "Tuyến luồng",
+      "align": "center",
+      "sortable": false,
+      "id": "chanelCodeList",
+      "display": "chanelCodeListName",
+      "type": "select",
+      "items": "chanelCodeListItems"
+    }
+  ],
+  "headersPTTNDRoiCang": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Số đăng ký",
+      "align": "center",
+      "sortable": false,
+      "id": "registryNumber",
+      "type": "text",
+      "display": "registryNumber"
+    },
+    {
+      "text": "Hô hiệu",
+      "align": "center",
+      "sortable": false,
+      "id": "callSign",
+      "display": "callSign",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Chiều dài",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "display": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Mớn nước",
+      "align": "center",
+      "sortable": false,
+      "id": "maxDraft",
+      "display": "maxDraft",
+      "type": "text",
+      "style": {
+        "min-width": "5em",
+        "max-width": "5em"
+      }
+    },
+    {
+      "text": "Loại hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoType",
+      "display": "cargoTypeName",
+      "type": "select",
+      "items": "cargoTypeItems"
+    },
+    {
+      "text": "Vị trí neo đậu",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Dự kiến rời SG",
+      "align": "center",
+      "sortable": false,
+      "id": "duKienRoiSg",
+      "display": "duKienRoiSg",
+      "type": "text",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Đại lý",
+      "align": "center",
+      "sortable": false,
+      "id": "shipAgencyCode",
+      "display": "shipAgencyName",
+      "type": "select",
+      "items": "shipAgencyItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Tuyến luồng",
+      "align": "center",
+      "sortable": false,
+      "id": "chanelCodeList",
+      "display": "chanelCodeListName",
+      "type": "select",
+      "items": "chanelCodeListItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    }
+  ],
+  "headerTauLaiHoTro": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text",
+      "style": {
+        "min-width": "16.6em",
+        "max-width": "16.6em"
+      }
+    },
+    {
+      "text": "Lượt",
+      "align": "center",
+      "sortable": false,
+      "id": "noticeShipType",
+      "display": "noticeShipTypeName",
+      "type": "select",
+      "items": "noticeShipTypeItems",
+      "style": {
+        "min-width": "12.6em",
+        "max-width": "12.6em"
+      }
+    },
+    {
+      "text": "Bến cảng",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortHarbourCode",
+      "display": "anchoringPortHarbourName",
+      "type": "select",
+      "items": "portHarbourItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Vị trí",
+      "align": "center",
+      "sortable": false,
+      "id": "anchoringPortWharfCode",
+      "display": "anchoringPortWharfName",
+      "type": "select",
+      "items": "portWharfItems",
+      "style": {
+        "min-width": "16em",
+        "max-width": "16em"
+      }
+    },
+    {
+      "text": "Thời gian <br> bắt đầu",
+      "align": "center",
+      "sortable": false,
+      "id": "tugDateFrom",
+      "display": "tugDateFrom",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian <br> kết thúc",
+      "align": "center",
+      "sortable": false,
+      "id": "tugDateTo",
+      "display": "tugDateTo",
+      "type": "time"
+    }
+  ],
+  "headersXepDoHang": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfShip",
+      "display": "nameOfShip",
+      "type": "text"
+    },
+    {
+      "text": "Thời gian đến",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfArrival",
+      "display": "timeOfArrival",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian đi",
+      "align": "center",
+      "sortable": false,
+      "id": "timeOfDeparture",
+      "display": "timeOfDeparture",
+      "type": "time"
+    },
+    {
+      "text": "Thời gian <br> làm hàng",
+      "align": "center",
+      "sortable": false,
+      "id": "unloadingDate",
+      "display": "unloadingDate",
+      "type": "time"
+    },
+    {
+      "text": "Hình thức H.H <br> qua cảng",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoCategory",
+      "display": "cargoCategoryName",
+      "type": "select",
+      "items": "cargoCategoryItems"
+    },
+    {
+      "text": "Bến cảng <br> làm hàng",
+      "align": "center",
+      "sortable": false,
+      "id": "portHarbourCode",
+      "display": "portHarbourName",
+      "type": "select",
+      "items": "portHarbourItems"
+    },
+    {
+      "text": "Vị trí làm hàng",
+      "align": "center",
+      "sortable": false,
+      "id": "portWharfCode",
+      "display": "portWharfName",
+      "type": "select",
+      "items": "portWharfItems"
+    },
+    {
+      "text": "Hàng hóa",
+      "align": "center",
+      "sortable": false,
+      "id": "cargoCode",
+      "display": "cargoName",
+      "type": "select",
+      "items": "cargoItems"
+    },
+    {
+      "text": "Số container",
+      "align": "center",
+      "sortable": false,
+      "id": "containerNumber",
+      "display": "containerNumber",
+      "type": "text"
+    },
+    {
+      "text": "Số TEU",
+      "align": "center",
+      "sortable": false,
+      "id": "numberTEU",
+      "display": "numberTEU",
+      "type": "text"
+    },
+    {
+      "text": "Số TEU rỗng",
+      "align": "center",
+      "sortable": false,
+      "id": "numberTEU",
+      "display": "numberTEU",
+      "type": "text"
+    },
+    {
+      "text": "Số tấn",
+      "align": "center",
+      "sortable": false,
+      "id": "numberTNE",
+      "display": "numberTEU",
+      "type": "text"
+    },
+    {
+      "text": "Có hàng <br> nguy hiểm",
+      "align": "center",
+      "sortable": false,
+      "id": "coHangNguyHiem",
+      "display": "coHangNguyHiem",
+      "type": "select",
+      "items": "coHangNguyHiemItems"
+    },
+    {
+      "text": "Ghi chú",
+      "align": "center",
+      "sortable": false,
+      "id": "remarks",
+      "display": "remarks",
+      "type": "text"
+    }
+  ],
+  "headersDsThuyNoiDia": [
+    {
+      "text": "STT",
+      "align": "center",
+      "sortable": false,
+      "id": "stt",
+      "type": "text",
+      "style": {
+        "width": "3em",
+        "min-width": "3em",
+        "max-width": "3em"
+      }
+    },
+    {
+      "text": "Tên phương tiện",
+      "align": "center",
+      "sortable": false,
+      "id": "shipName",
+      "display": "shipName",
+      "type": "text"
+    },
+    {
+      "text": "Loại tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipTypeCode",
+      "display": "shipTypeName",
+      "type": "select",
+      "items": "shipTypeItems",
+      "style": {
+        "min-width": "15em",
+        "max-width": "15em"
+      }
+    },
+    {
+      "text": "Cấp PT",
+      "align": "center",
+      "sortable": false,
+      "id": "vrCode",
+      "display": "vrCode",
+      "type": "text"
+    },
+    {
+      "text": "Tàu kéo",
+      "align": "center",
+      "sortable": false,
+      "id": "tugBoatName",
+      "display": "tugBoatName",
+      "type": "text"
+    },
+    {
+      "text": "GT",
+      "align": "center",
+      "sortable": false,
+      "id": "gt",
+      "display": "gt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "DWT",
+      "align": "center",
+      "sortable": false,
+      "id": "dwt",
+      "display": "dwt",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "LOA(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "loa",
+      "type": "text",
+      "style": {
+        "min-width": "4em",
+        "max-width": "4em"
+      }
+    },
+    {
+      "text": "Breadth(m)",
+      "align": "center",
+      "sortable": false,
+      "id": "breadth",
+      "display": "breadth",
+      "type": "text",
+      "style": {
+        "min-width": "5.1em",
+        "max-width": "5.1em"
+      }
+    },
+    {
+      "text": "Công suất máy(HP)",
+      "align": "center",
+      "sortable": false,
+      "id": "power",
+      "display": "power",
+      "type": "text"
+    },
+    {
+      "text": "Chủ tàu",
+      "align": "center",
+      "sortable": false,
+      "id": "shipOwnerCode",
+      "display": "shipOwnerName",
+      "type": "select",
+      "items": "shipOwnerItems",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Địa chỉ",
+      "align": "center",
+      "sortable": false,
+      "id": "address",
+      "display": "address",
+      "type": "text",
+      "style": {
+        "min-width": "20em",
+        "max-width": "20em"
+      }
+    },
+    {
+      "text": "Thuyền trưởng",
+      "align": "center",
+      "sortable": false,
+      "id": "nameOfMaster",
+      "display": "nameOfMaster",
+      "type": "text"
+    },
+    {
+      "text": "Hạng bằng TT",
+      "align": "center",
+      "sortable": false,
+      "id": "hangBangDSTND",
+      "display": "hangBangDSTND",
+      "type": "text"
+    },
+    {
+      "text": "Máy trưởng",
+      "align": "center",
+      "sortable": false,
+      "id": "chiefOfEngineer",
+      "display": "chiefOfEngineer",
+      "type": "text"
+    },
+    {
+      "text": "Hạng bằng MT",
+      "align": "center",
+      "sortable": false,
+      "id": "hangBangMtDSTND",
+      "display": "hangBangMtDSTND",
+      "type": "text"
+    }
+  ],
+  "TPHS_ThongTinTauBien": [
+    {
+      "name": "Giấy tờ tàu",
+      "code": "GIAYTOTAU"
+    },
+    {
+      "name": "Hành trình tàu",
+      "code": "HANHTRINHTAU"
+    },
+    {
+      "name": "Vị trí neo đậu",
+      "code": "VITRINEODAU"
+    },
+    {
+      "name": "Dich chuyển vị trí",
+      "code": "DICHCHUYENVITRI"
+    },
+    {
+      "name": "Sửa chữa",
+      "code": "SUACHUA"
+    },
+    {
+      "name": "Hạ xuồng",
+      "code": "HAXUONG"
+    },
+    {
+      "name": "Thử tàu",
+      "code": "THUTAU"
+    },
+    {
+      "name": "Giữ tàu",
+      "code": "GIUTAU"
+    },
+    {
+      "name": "Vi phạm giấy phép",
+      "code": "VIPHAMGIAYPHEP"
+    },
+    {
+      "name": "Ghi chú, cảnh báo",
+      "code": "GHICHUCANHBAO"
+    },
+    {
+      "name": "Lịch sử thay đổi",
+      "code": "LÍCHUTHAYDOI"
+    }
+  ],
+  "TPHS_ThongTinPTTND": [
+    {
+      "name": "Giấy tờ phương tiện",
+      "code": "GIAYTOPHUONGTIEN"
+    },
+    {
+      "name": "Hành trình phương tiện",
+      "code": "HANHTRINHPHUONGTIEN"
+    },
+    {
+      "name": "Vị trí neo đậu",
+      "code": "VITRINEODAU"
+    },
+    {
+      "name": "Vi phạm giấy phép",
+      "code": "VIPHAMGIAYPHEP"
+    },
+    {
+      "name": "Ghi chú, cảnh báo",
+      "code": "GHICHUCANHBAO"
+    },
+    {
+      "name": "Lịch sử thay đổi",
+      "code": "LICHSUTHAYDOI"
+    }
+  ],
+  "thangItems": [{
+    "itemText": "1",
+    "itemValue": 1
+  }, {
+    "itemText": "2",
+    "itemValue": 2
+  }, {
+    "itemText": "3",
+    "itemValue": 3
+  }, {
+    "itemText": "4",
+    "itemValue": 4
+  }, {
+    "itemText": "5",
+    "itemValue": 5
+  }, {
+    "itemText": "6",
+    "itemValue": 6
+  }, {
+    "itemText": "7",
+    "itemValue": 7
+  }, {
+    "itemText": "8",
+    "itemValue": 8
+  }, {
+    "itemText": "9",
+    "itemValue": 9
+  }, {
+    "itemText": "10",
+    "itemValue": 10
+  }, {
+    "itemText": "11",
+    "itemValue": 11
+  }, {
+    "itemText": "12",
+    "itemValue": 12
+  }],
+  "markedAsArrival": {
+    "0": "Chưa có hồ sơ lượt vào",
+    "1": "Chưa lập kế hoạch đến",
+    "2": "Chờ xác nhận kế hoạch",
+    "3": "Chuyển lãnh đạo chờ ký số",
+    "4": "Chuyển văn thư chờ đóng dấu",
+    "5": "",
+    "6": "Hủy kế hoạch điều động",
+    "7": "Lãnh đạo trả lại",
+    "8": "Đã duyệt kế hoạch điều động",
+    "9": "Đã cấp kế hoạch điều động"
+  },
+  "role_filter_status_out": {
+    "id": -3,
+    "index": 3,
+    "title": "Quản lý chuyến tàu",
+    "id_active": "quan_ly_tau",
+    "action_active": "folder_open",
+    "items": [
+      {
+        "id": 34,
+        "title": "Kế hoạch tàu thuyền vào cảng",
+        "counter": "_ _",
+        "code": 304,
+        "type": "DanhSachTauDenCang",
+        "url": "countVmaItinerarySchedule_Come_URL"
+      },
+      {
+        "id": 33,
+        "title": "Kế hoạch tàu thuyền rời cảng",
+        "counter": "_ _",
+        "code": 303,
+        "type": "DanhSachTauRoiCang",
+        "url": "countVmaItinerarySchedule_Leave_URL"
+      },
+      {
+        "id": 32,
+        "title": "Vị trí neo đậu tại cảng",
+        "counter": "_ _",
+        "code": 302,
+        "type": "DanhSachViTriNeoDauTaiCang",
+        "url": "countVmaScheduleAnchorage_Port_URL"
+      },
+      {
+        "id": 35,
+        "title": "Kế hoạch tàu dịch chuyển",
+        "counter": "_ _",
+        "code": 305,
+        "type": "DanhSachTauDiChuyen",
+        "url": "countVmaScheduleShiftingURL"
+      },
+      {
+        "id": 37,
+        "title": "Tàu lai hỗ trợ",
+        "counter": "_ _",
+        "code": 307,
+        "type": "DanhSachTauLaiHoTro",
+        "url": "countVmaScheduleTugboatURL"
+      },
+      {
+        "id": 38,
+        "title": "Hoa tiêu dẫn tàu",
+        "counter": "_ _",
+        "code": 308,
+        "type": "DanhSachHoaTieuDanTau",
+        "url": "countVmaSchedulePilotURL"
+      },
+      {
+        "id": 40,
+        "title": "Nhập, tách đoàn",
+        "counter": "_ _",
+        "code": 400,
+        "type": "DanhSachNhapTachDoan",
+        "url": "countVmaScheduleMergingURL"
+      },
+      {
+        "id": 41,
+        "title": "Sửa chữa\t",
+        "counter": "_ _",
+        "code": 401,
+        "type": "DanhSachSuaChuaTau",
+        "url": "countVmaScheduleShipyardURL"
+      },
+      {
+        "id": 42,
+        "title": "Hạ xuồng",
+        "counter": "_ _",
+        "code": 402,
+        "type": "DanhSachHaXuong",
+        "url": "countVmaScheduleLaunchingURL"
+      },
+      {
+        "id": 43,
+        "title": "Thử tàu",
+        "counter": "_ _",
+        "code": 403,
+        "type": "DanhSachThuTau",
+        "url": "countVmaScheduleTestingURL"
+      },
+      {
+        "id": 44,
+        "title": "Giữ tàu",
+        "counter": "_ _",
+        "code": 404,
+        "type": "DanhSachDuTau",
+        "url": "countVmaScheduleSecurityURL"
+      },
+      {
+        "id": 37,
+        "title": "Xếp dỡ hàng",
+        "counter": "_ _",
+        "code": 307,
+        "type": "DanhSachXepDoHang",
+        "url": "countVmaScheduleCargolistURL"
+      },
+      {
+        "id": 44,
+        "title": "Giấy tờ tàu",
+        "counter": "_ _",
+        "code": 406,
+        "type": "DanhSachGiayToTau",
+        "url": "countVmaShipCertificate"
+      },
+      {
+        "id": 46,
+        "title": "Kháng nghị hàng hải",
+        "counter": "_ _",
+        "code": 406,
+        "type": "DanhSachKhangNghiHangHai",
+        "url": "countVmaItineraryProtestURL"
+      },
+      {
+        "id": 45,
+        "title": "Ghi chú, cảnh báo",
+        "counter": "_ _",
+        "code": 405,
+        "type": "DanhSachGhiChuCanhBao",
+        "url": "countVmaItineraryRemarksURL"
+      },
+      {
+        "id": 47,
+        "title": "KH tàu chạy chuyên tuyến",
+        "counter": "_ _",
+        "code": 407,
+        "type": "DanhSachKeHoachChuyenTuyen",
+        "url": "countVmaScheduleXlineURL"
+      },
+      {
+        "id": 31,
+        "title": "Tàu biển",
+        "counter": "_ _",
+        "code": 304,
+        "type": "DanhSachTauBien",
+        "url": "countVmaShip_Ship_URL"
+      },
+      {
+        "id": 31,
+        "title": "PT thủy nội địa",
+        "counter": "_ _",
+        "code": 305,
+        "type": "DanhSachPhuongTienThuyNoiDia",
+        "url": "countVmaShip_Boat_URL"
+      }
+    ],
+    "action": "folder",
+    "active": false,
+    "type": "DanhSachTau"
+  }
+}

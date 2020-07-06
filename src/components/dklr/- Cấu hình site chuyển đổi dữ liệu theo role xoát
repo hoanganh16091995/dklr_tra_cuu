@@ -1,0 +1,33 @@
+- Cấu hình site chuyển đổi dữ liệu theo role xoát xét tổ tổng hợp cho cả 2 app và gắn theme vào
+- Tra cứu doanh nghiệp => title ăn theo menu chọn
+Phần quản lý thông tin doanh nghiệp của cán bộ đưa lên menu mới, 
+Menu bên tay trái
+ + Tìm kiếm thông tin doanh nghiệp
+   ++ DOanh nghiệp trong nước
+   	 +++ Xem tài khoản
+   	 +++ Sửa thông tin tài khoản
+   	 +++ phê duyệt tài khoản
+   	 +++ Khóa tài khoản
+   	 +++ Mở khóa tài khoản
+   	 +++ Cập nhật tình trạng
+   ++ Cơ sở sản xuất nước ngoài
+   	 +++ Xem tài khoản
+   	 +++ Sửa thông tin tài khoản
+   	 +++ Cập nhật tình trạng
+
+Các trạng thái hiển thị nút
+	+ tất cả
+	+ TK khởi tạo/ chỉnh sửa
+	+ TK đã đọc, chờ duyệt
+	+ TK đã đọc, yêu cầu bổ sung
+	+ TK đã duyệt
+	+ TK đang khóa
+Thêm cột lý do cho trạng thái
+	+ yêu cầu bổ sung
+	+ trạng thái đang khóa
+
+Chưa bấm nút tìm kiếm hoặc enter thì ko hiển thị sắn danh sách tài khoản
+
+Trong giao diện hiển thị chi tiết
+	title THÔNG TIN DOANH NGHIỆP - tên doanh nghiệp
+	bỏ phần nội dung thông tin chung thay bằng các thông báo (trạng thái + lý do hiện tại)
