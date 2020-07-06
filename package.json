@@ -19,7 +19,7 @@
     "filepond-plugin-file-validate-type": "^1.1.0",
     "filepond-plugin-image-preview": "^1.0.9",
     "handlebars": "^4.4.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "object.values": "^1.0.4",
     "popper.js": "^1.15.0",
     "toastr": "^2.1.4",
