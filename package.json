@@ -32,7 +32,7 @@
     "vue-filepond": "^2.1.0",
     "vue-json-component": "^0.3.0",
     "vue-masked-input": "^0.5.2",
-    "vue-moment": "^4.0.0-0",
+    "vue-moment": "^4.1.0",
     "vue-popover": "^1.6.2",
     "vue-router": "^3.0.1",
     "vue-scrolling-table": "^0.2.2",
